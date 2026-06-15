@@ -1,40 +1,76 @@
-# Postman API Workflows
+# API Automation Framework
 
-This repository contains automated API tests created using Postman CLI. Originally developed as a personal learning project, it demonstrates practical experience with API automation, workflow integration, and testing best practices.
+A practical API testing and workflow automation project demonstrating automated validation, continuous integration and system integration techniques using Postman, JavaScript and GitHub Actions.
 
-Although this project was a practice exercise, the techniques used are directly applicable to professional projects involving APIs, including integrations with client platforms, third-party services, and internal tools.
+This repository showcases the development of repeatable API testing workflows that can be applied to software development, automation projects, third-party integrations and business systems.
 
 ## Overview
 
-- **Automated Testing:** Runs API tests automatically on GitHub Actions whenever code is pushed.  
-- **Postman CLI:** Uses Postman CLI to execute collections reliably.  
-- **Reusable Workflows:** Demonstrates how to structure and maintain automated API test workflows for any project.
+Modern applications often rely on multiple APIs communicating reliably with one another. This project demonstrates how automated testing can be incorporated into a development workflow to verify API behaviour, detect issues early and support ongoing software maintenance.
 
-## Workflow Details
+Key capabilities demonstrated include:
 
-1. GitHub Action triggers on push events.  
-2. Postman CLI is installed in the runner environment.  
-3. Secure login using an API key stored in GitHub Secrets.  
-4. Executes the designated Postman collection:
+* Automated API testing using Postman collections
+* JavaScript-based test scripting and response validation
+* Continuous Integration (CI) using GitHub Actions
+* Secure credential management using GitHub Secrets
+* Automated workflow execution and reporting
+* API endpoint verification and regression testing
 
+## Technologies Used
 
-## Business Relevance
+* Postman
+* Postman CLI
+* JavaScript
+* REST APIs
+* JSON
+* GitHub Actions
+* CI/CD Workflows
+* Git Version Control
 
-This project highlights skills that are valuable in a professional context:
+## Workflow
 
-- Efficient API testing and automation for web applications.  
-- CI/CD integration to ensure API reliability.  
-- Ability to implement repeatable, maintainable testing workflows for client or internal projects.
+1. A GitHub Actions workflow is triggered automatically.
+2. Postman CLI is installed and configured.
+3. Secure authentication is performed using credentials stored in GitHub Secrets.
+4. Postman collections execute automated API requests.
+5. JavaScript test scripts validate responses and expected outcomes.
+6. Results are reported through GitHub Actions.
 
-Even as a past practice project, this repository reflects practical experience with tools and methods that can support business solutions, system integrations, and software reliability initiatives.
+## Skills Demonstrated
 
-## How to Use
+* API testing and validation
+* Workflow automation
+* JavaScript scripting
+* CI/CD implementation
+* Secure configuration management
+* System integration
+* Automated quality assurance
+* Software development best practices
 
-1. Fork or clone this repository.  
-2. Add your Postman API key to GitHub Secrets (`POSTMAN_API_KEY`).  
-3. Push code to trigger the automated tests.  
-4. Review results directly in GitHub Actions.
+## Business Applications
+
+The techniques demonstrated in this project can be applied to:
+
+* API quality assurance
+* Third-party service integrations
+* Internal business system integrations
+* Automation platforms
+* Data collection pipelines
+* Python-based backend systems
+* Continuous deployment environments
+
+## Repository Purpose
+
+This repository forms part of a wider portfolio focused on software automation, data processing, API integrations and business workflow optimisation. While the implementation uses Postman and JavaScript for API testing, the principles demonstrated are directly applicable to larger software engineering projects involving Python, automation frameworks and backend services.
+
+## Running the Project
+
+1. Clone the repository.
+2. Configure the required Postman API credentials in GitHub Secrets.
+3. Trigger the GitHub Actions workflow.
+4. Review execution results in the Actions tab.
 
 ---
 
-*Demonstrates real-world API workflow experience that complements business projects and client solutions.*
+This project demonstrates practical experience in API automation, integration testing and workflow orchestration, skills that support modern software development and automation solutions.
